@@ -41,6 +41,7 @@ const ourTeam = [
 for (let i in ourTeam) {
     console.log(i, ':', ourTeam[i])
     console.log(ourTeam[i].name)
+    
     container.innerHTML += `
     <div class="elementTeam">
         <h4>${ourTeam[i].name}</h4>
